@@ -1,0 +1,164 @@
+.internship-preview {
+  padding: 71px 6%;
+  background: #f8fafc;
+}
+
+.internship-header {
+  margin-bottom: 60px;
+}
+
+.internship-header h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Grid */
+.internship-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Card */
+.internship-card {
+  position: relative;
+  padding: 40px 30px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+}
+
+.internship-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 70px rgba(13, 71, 161, 0.15);
+}
+
+/* Large faint number */
+.card-number {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(13, 71, 161, 0.07);
+}
+
+/* Title */
+.internship-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+/* Description */
+.desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Tech badges */
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.badge {
+  background: #e3f2fd;
+  color: #0d47a1;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Footer */
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details-btn {
+  padding: 10px 22px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #0d47a1;
+  background: transparent;
+  color: #0d47a1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.details-btn:hover {
+  background: #0d47a1;
+  color: #ffffff;
+}
+
+/* Header layout */
+.internship-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* View More Button */
+.view-more-btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #0d47a1;
+  background: transparent;
+  color: #0d47a1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-more-btn:hover {
+  background: #0d47a1;
+  color: #ffffff;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .internship-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .internship-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .internship-header h2 {
+    font-size: 24px;
+  }
+  .internship-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .view-more-btn {
+    font-size: 13px;
+    padding: 8px 18px;
+  }
+  
+  
+}

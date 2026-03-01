@@ -1,0 +1,115 @@
+.cyber-page {
+  padding: 100px 6%;
+  background: #f4f7fb;
+}
+
+/* Header */
+.cyber-page-header {
+  margin-bottom: 60px;
+}
+
+.cyber-page-header h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ===== GRID LAYOUT ===== */
+.cyber-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+/* Card */
+.cyber-card {
+  padding: 40px 35px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.4s ease;
+}
+
+/* Hover Effect */
+.cyber-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.1);
+}
+
+/* Accent Line */
+.cyber-accent {
+  height: 4px;
+  width: 60px;
+  background: #000;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.cyber-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Tech */
+.cyber-card .tech {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 14px;
+}
+
+/* Description */
+.cyber-card .desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Button */
+.details-btn {
+  align-self: flex-end;
+  padding: 10px 24px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.details-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .cyber-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .cyber-page {
+    padding: 70px 5%;
+  }
+
+  .cyber-page-header h2 {
+    font-size: 24px;
+  }
+
+  .cyber-list {
+    grid-template-columns: 1fr;
+  }
+}

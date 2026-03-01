@@ -1,0 +1,165 @@
+.software-preview {
+    padding-top: 60px;
+    padding-left: 6%;
+    padding-right: 6%;
+    background: #ffffff;
+}
+
+.software-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+}
+
+.carousel-container:active {
+    cursor: grabbing;
+}
+
+.carousel-track {
+    display: flex;
+}
+
+/* CARD DESIGN */
+.software-card {
+    flex: 0 0 33.333%;
+    padding: 35px 30px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffffa5, #f3f6fa);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    transition: all 0.4s ease;
+    transform: scale(0.85);
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+}
+
+/* Accent line */
+.card-accent {
+    height: 4px;
+    width: 50px;
+    background: #0d47a1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* ACTIVE CENTER */
+.software-card.active {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 25px 50px rgba(13, 71, 161, 0.12);
+}
+
+/* Hover lift */
+.software-card:hover {
+    transform: translateY(-6px) scale(1);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* TITLE */
+.software-card h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+/* TECH */
+.software-card .tech {
+    font-size: 13px;
+    font-weight: 500;
+    color: #0d47a1;
+    margin-bottom: 14px;
+}
+
+/* DESC */
+.software-card .desc {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+/* DETAILS BUTTON */
+.details-btn {
+    align-self: flex-end;
+    padding: 10px 22px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #0d47a1;
+    background: transparent;
+    color: #0d47a1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.details-btn:hover {
+    background: #0d47a1;
+    color: #ffffff;
+}
+
+
+/* Header Row */
+.software-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* View All Button */
+.view-all-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #0d47a1;
+    background: transparent;
+    color: #0d47a1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-all-btn:hover {
+    background: #0d47a1;
+    color: #ffffff;
+}
+
+/* MOBILE - 1 slide */
+@media (max-width: 768px) {
+    .software-title {
+        font-size: 22px;
+    }
+
+    .software-card {
+        flex: 0 0 100%;
+        transform: scale(0.92);
+    }
+
+    .software-card.active {
+        transform: scale(1);
+    }
+
+    .software-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+    }
+
+    .view-all-btn {
+        align-items: flex-end;
+        font-size: 13px;
+        padding: 8px 18px;
+    }
+}
