@@ -45,7 +45,7 @@ function InternshipPreview() {
     return (
         <section className="internship-preview">
             <div className="internship-header">
-                <h2>Best Internships</h2>
+                <h2>Best Works</h2>
                 <button className="view-more-btn" onClick={() => navigate("/internship")}>View More</button>
             </div>
 

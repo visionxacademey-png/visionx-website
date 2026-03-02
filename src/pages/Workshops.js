@@ -50,7 +50,7 @@ function Workshops() {
     <section className="workshops-page">
 
       <div className="workshops-header">
-        <h2>All Workshops</h2>
+        <h2>Our Services</h2>
       </div>
 
       <div className="workshops-list">

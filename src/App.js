@@ -51,6 +51,7 @@ import Workshops from "./pages/Workshops";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
+import About from "./pages/About";
 
 function App() {
 
@@ -65,6 +66,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/software" element={<Software />} />
         <Route path="/cybersecurity" element={<CyberSecurity />} />
         <Route path="/internship" element={<Internship />} />

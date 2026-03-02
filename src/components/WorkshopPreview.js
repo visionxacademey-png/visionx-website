@@ -47,7 +47,7 @@ function WorkshopPreview() {
         <section className="workshop-preview">
 
             <div className="workshop-header">
-                <h2>Trending Workshops</h2>
+                <h2>Our Best Services</h2>
                 <button className="view-more-btn" onClick={() => navigate("/workshops")}>View More</button>
             </div>
 

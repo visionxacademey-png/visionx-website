@@ -63,7 +63,7 @@ function Internship() {
     <section className="internship-page">
 
       <div className="internship-page-header">
-        <h2>All Internships</h2>
+        <h2>Our Works</h2>
       </div>
 
       <div className="internship-list">

@@ -9,7 +9,7 @@ function TopInternships() {
   return (
     <section className="top-internships">
       <div className="top-container">
-        <h2>New Internships</h2>
+        <h2>New Works</h2>
 
         <Link to="internship" smooth duration={600}>
           <button className="top-btn" onClick={() => navigate("/internship")}>View All</button>
