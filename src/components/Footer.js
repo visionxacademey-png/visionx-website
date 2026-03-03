@@ -21,7 +21,7 @@ function Footer() {
           <h3>VISION<span>X</span></h3>
           <p>
             Empowering innovation through Software Development,
-            Cybersecurity solutions and Professional Training.
+            Cybersecurity solutions and Professional Deployment.
           </p>
         </div>
 
