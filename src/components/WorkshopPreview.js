@@ -12,34 +12,34 @@ function WorkshopPreview() {
     const navigate = useNavigate();
     const workshops = [
         {
-            title: "Advanced React Workshop",
-            platform: "React • Hooks • Performance",
-            desc: "Deep dive into advanced React patterns and optimization."
+            title: "Advanced React",
+            platform: "React • Hooks • three.js",
+            desc: "Deep dive into advanced 3D patterns and optimization."
         },
         {
             title: "Spring Boot Bootcamp",
             platform: "Java • Spring Boot • REST",
-            desc: "Build enterprise backend systems with Spring Boot."
+            desc: "Enterprise backend systems with Spring Boot."
         },
         {
-            title: "Ethical Hacking Live",
+            title: "Ethical Hacking",
             platform: "Kali Linux • VAPT",
-            desc: "Hands-on penetration testing and vulnerability scanning."
+            desc: "Penetration testing and vulnerability scanning."
         },
         {
             title: "AI & Machine Learning",
             platform: "Python • ML • TensorFlow",
-            desc: "Build intelligent AI systems."
+            desc: "Building intelligent AI systems."
         },
         {
             title: "Cloud Deployment",
             platform: "AWS • Docker • CI/CD",
-            desc: "Deploy scalable apps using cloud infrastructure."
+            desc: "Scalable apps using cloud infrastructure."
         },
         {
             title: "UI/UX Masterclass",
             platform: "Figma • UX Research",
-            desc: "Design modern user-focused interfaces."
+            desc: "Modern user-focused interfaces."
         }
     ];
 

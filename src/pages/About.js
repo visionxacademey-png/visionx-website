@@ -144,8 +144,7 @@ function About() {
           <h3>Our Mission</h3>
           <p>
             To provide cutting-edge software development, advanced
-            cybersecurity solutions, and industry-ready training programs
-            that bridge the gap between education and real-world demands.
+            cybersecurity solutions in accordance with real-world demands.
           </p>
         </div>
 

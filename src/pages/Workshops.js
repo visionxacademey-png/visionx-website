@@ -4,45 +4,45 @@ import "./Workshops.css";
 function Workshops() {
 
   const workshops = [
+     {
+            title: "Advanced React",
+            platform: "React • Hooks • three.js",
+            desc: "Deep dive into advanced 3D patterns and optimization."
+        },
+        {
+            title: "Spring Boot Bootcamp",
+            platform: "Java • Spring Boot • REST",
+            desc: "Enterprise backend systems with Spring Boot."
+        },
+        {
+            title: "Ethical Hacking",
+            platform: "Kali Linux • VAPT",
+            desc: "Penetration testing and vulnerability scanning."
+        },
+        {
+            title: "AI & Machine Learning",
+            platform: "Python • ML • TensorFlow",
+            desc: "Building intelligent AI systems."
+        },
+        {
+            title: "Cloud Deployment",
+            platform: "AWS • Docker • CI/CD",
+            desc: "Scalable apps using cloud infrastructure."
+        },
+        {
+            title: "UI/UX Masterclass",
+            platform: "Figma • UX Research",
+            desc: "Modern user-focused interfaces."
+        },
     {
-      title: "Advanced React Workshop",
-      platform: "React • Hooks • Performance",
-      desc: "Deep dive into advanced React patterns and optimization."
-    },
-    {
-      title: "Spring Boot Bootcamp",
-      platform: "Java • Spring Boot • REST",
-      desc: "Build enterprise backend systems with Spring Boot."
-    },
-    {
-      title: "Ethical Hacking Live",
-      platform: "Kali Linux • VAPT",
-      desc: "Hands-on penetration testing and vulnerability scanning."
-    },
-    {
-      title: "AI & Machine Learning",
-      platform: "Python • ML • TensorFlow",
-      desc: "Build intelligent AI systems."
-    },
-    {
-      title: "Cloud Deployment",
-      platform: "AWS • Docker • CI/CD",
-      desc: "Deploy scalable apps using cloud infrastructure."
-    },
-    {
-      title: "UI/UX Masterclass",
-      platform: "Figma • UX Research",
-      desc: "Design modern user-focused interfaces."
-    },
-    {
-      title: "DevOps Mastery",
+      title: "DevOps",
       platform: "Docker • Kubernetes • CI/CD",
-      desc: "Learn real-world DevOps tools and deployment pipelines."
+      desc: "real-world DevOps tools and deployment pipelines."
     },
     {
       title: "Cyber Defense Pro",
       platform: "SIEM • SOC • Threat Analysis",
-      desc: "Master enterprise security monitoring techniques."
+      desc: "Enterprise security monitoring techniques."
     }
   ];
 

@@ -4,41 +4,41 @@ import "./Internship.css";
 function Internship() {
   const internships = [
     {
-      id: "01",
-      title: "Full Stack Development",
-      tech: ["React", "Node.js", "MongoDB"],
-      desc: "Build scalable web applications using modern full-stack technologies."
-    },
-    {
-      id: "02",
-      title: "Mobile App Development",
-      tech: ["Flutter", "React Native"],
-      desc: "Create high-performance cross-platform mobile applications."
-    },
-    {
-      id: "03",
-      title: "Cybersecurity",
-      tech: ["Ethical Hacking", "VAPT", "SIEM"],
-      desc: "Learn vulnerability assessment and penetration testing."
-    },
-    {
-      id: "04",
-      title: "UI/UX Design",
-      tech: ["Figma", "Adobe XD"],
-      desc: "Design intuitive user experiences and modern interfaces."
-    },
-    {
-      id: "05",
-      title: "Cloud Computing",
-      tech: ["AWS", "Azure", "Docker"],
-      desc: "Deploy and manage scalable cloud infrastructure."
-    },
-    {
-      id: "06",
-      title: "Data Science & AI",
-      tech: ["Python", "TensorFlow", "ML"],
-      desc: "Develop intelligent systems and real-world AI models."
-    },
+            id: "01",
+            title: "Full Stack Development",
+            tech: ["React", "Node.js", "MongoDB"],
+            desc: "Scalable web applications using modern full-stack technologies."
+        },
+        {
+            id: "02",
+            title: "Mobile App Development",
+            tech: ["Flutter", "React Native"],
+            desc: "High-performance cross-platform mobile applications."
+        },
+        {
+            id: "03",
+            title: "Cybersecurity",
+            tech: ["Ethical Hacking", "VAPT", "SIEM"],
+            desc: "Vulnerability assessment and penetration testing."
+        },
+        {
+            id: "04",
+            title: "UI/UX Design",
+            tech: ["Figma", "Adobe XD"],
+            desc: "Intuitive user experiences and modern interfaces."
+        },
+        {
+            id: "05",
+            title: "Cloud Computing",
+            tech: ["AWS", "Azure", "Docker"],
+            desc: "Deploying and managing scalable cloud infrastructure."
+        },
+        {
+            id: "06",
+            title: "Data Science & AI",
+            tech: ["Python", "TensorFlow", "ML"],
+            desc: "Intelligent systems and real-world AI models."
+        },
     {
       id: "07",
       title: "DevOps Engineering",
@@ -49,13 +49,13 @@ function Internship() {
       id: "08",
       title: "Blockchain Development",
       tech: ["Solidity", "Web3", "Ethereum"],
-      desc: "Build decentralized applications and smart contracts."
+      desc: "Decentralized applications and smart contracts."
     },
     {
       id: "09",
       title: "Embedded Systems",
       tech: ["Arduino", "Raspberry Pi", "IoT"],
-      desc: "Design and develop smart hardware-based systems."
+      desc: "Designing and developing smart hardware-based systems."
     }
   ];
 
