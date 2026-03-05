@@ -49,7 +49,7 @@ function Footer() {
 
           <div className="footer-item">
             <MdLocationOn className="footer-icon" />
-            <span>Wee Spaces, Neeloth Plaza,
+            <span> Neeloth Plaza,
               Wayanad Rd, East Nadakkave,
               Kozhikode, Kerala 673001</span>
           </div>
