@@ -39,8 +39,8 @@ function Navbar() {
           </li>
           <li><NavLink to="/software" onClick={closeMenu}>Software</NavLink></li>
           <li><NavLink to="/cybersecurity" onClick={closeMenu}>Cybersecurity</NavLink></li>
-          <li><NavLink to="/internship" onClick={closeMenu}>Internship</NavLink></li>
-          <li><NavLink to="/workshops" onClick={closeMenu}>Workshops</NavLink></li>
+          <li><NavLink to="/internship" onClick={closeMenu}>Our Works</NavLink></li>
+          <li><NavLink to="/workshops" onClick={closeMenu}>Our Services</NavLink></li>
         </ul>
 
         <div
