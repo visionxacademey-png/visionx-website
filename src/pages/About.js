@@ -37,7 +37,7 @@ function About() {
     let c = 0;
 
     const interval = setInterval(() => {
-      if (y < 3) y++;
+      if (y < 15) y++;
       if (p < 2000) p += 50;
       if (c < 300) c += 5;
 
